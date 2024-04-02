@@ -5,7 +5,7 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #ff3b19;
+    --primary: #ff0c0c;
     --primaryLight: #ff5435;
     --secondary: #f1db33;
     --secondaryLight: rgb(76, 127, 244);
@@ -486,7 +486,7 @@
   }
   body.dark-mode #cs-navigation .cs-logo {
     /* makes it white */
-    filter: grayscale(1) brightness(1000%);
+    filter: invert(1);
   }
   body.dark-mode #cs-navigation .cs-line {
     background-color: #fff;
@@ -783,7 +783,7 @@
   }
   body.dark-mode #cs-navigation .cs-logo {
     /* makes it turn white */
-    filter: grayscale(1) brightness(1000%);
+    filter: invert(1);
   }
   body.dark-mode #cs-navigation .cs-li-link {
     color: var(--bodyTextColorWhite);
